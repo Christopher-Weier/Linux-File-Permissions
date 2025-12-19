@@ -1,22 +1,11 @@
-linux-file-permissions/
-├── README.md
-└── images/
-    ├── navigation.png
-    ├── permissions-string.png
-    ├── chmod-file.png
-    ├── hidden-files.png
-    ├── restrict-hidden.png
 # 🐧 Linux File Permissions & Access Control  
 **Focus:** Linux Administration · Access Control · Security Hardening
 
-> **Disclaimer**  
-> This project is a **sanitized, educational demonstration** of Linux file and directory permission management.  
-> Usernames, directory names, and file names are used for instructional purposes only.
 
 ---
 
 ## 📌 Project Description
-Using the Linux command line, file and directory permissions were examined and modified to ensure that users and groups have **appropriate levels of access**. Proper permission management helps limit organizational risk by reducing unauthorized access and minimizing the attack surface :contentReference[oaicite:1]{index=1}.
+Using the Linux command line, file and directory permissions were examined and modified to ensure that users and groups have **appropriate levels of access**. Proper permission management helps limit organizational risk by reducing unauthorized access and minimizing the attack surface.
 
 ---
 
@@ -66,7 +55,7 @@ This step demonstrates careful review of both visible and hidden assets within a
 ---
 
 ## 📁 Change Directory Permissions
-Directory permissions were reviewed to ensure group members no longer had execute access where it was not required. Removing unnecessary execute permissions helps prevent unauthorized traversal of directories :contentReference[oaicite:2]{index=2}.
+Directory permissions were reviewed to confirm that group members no longer had execute access where it was not required. Removing unnecessary execute permissions helps prevent unauthorized directory traversal and supports the principle of least privilege.
 
 ---
 
@@ -80,4 +69,4 @@ Directory permissions were reviewed to ensure group members no longer had execut
 ---
 
 ## 📚 Summary
-Reviewing and adjusting file and directory permissions is a **continuous security task**. Regular permission audits—especially during staffing or role changes—help reduce risk from both internal and external threat actors by enforcing the principle of least privilege :contentReference[oaicite:3]{index=3}.
+Reviewing and adjusting file and directory permissions is a **continuous security task**. Regular permission audits—especially during staffing or role changes—help reduce risk from both internal and external threat actors by enforcing the principle of least privilege.
